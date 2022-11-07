@@ -15,7 +15,11 @@
 ### Решение задачи
 
 ```python
-# TODO: you code here...
+count_number = int(input())
+if 2 < len(str(abs(count_number))) < 4:
+    print("Да")
+else:
+    print("Нет")
 ```
 
 ---
