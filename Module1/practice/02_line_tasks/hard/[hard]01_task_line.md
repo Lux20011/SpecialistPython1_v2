@@ -18,7 +18,13 @@
 ### Решение задачи
 
 ```python
-# TODO: you code here...
+h = int(input())
+a = int(input())
+b = int(input())
+h_new = h-a #прошла за день
+h_all_day = a-b # прошла за весь день
+result = h_new-1 // h_all_day+2
+print(result)
 ```
 
 ---
