@@ -17,7 +17,8 @@
 ### Решение задачи
 
 ```python
-# TODO: you code here...
+number = int(input())
+print(int(((number-1)/5+1)))
 ```
 
 ---
