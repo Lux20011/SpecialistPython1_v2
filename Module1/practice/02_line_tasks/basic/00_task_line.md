@@ -16,7 +16,12 @@
 ### Решение задачи
 
 ```python
-# TODO: you code here...
+a = int(input())
+b = int(input())
+c = int(input())
+p = 0.5*(a+b+c)
+s = (p*(p-a)*(p-b)*(p-c))**0.5
+print(s,p*2)
 ```
 
 ---
