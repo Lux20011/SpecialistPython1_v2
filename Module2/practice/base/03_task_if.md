@@ -18,7 +18,13 @@
 ### Решение задачи
 
 ```python
-# TODO: you code here...
+rub = int(input())
+sell = int(input())
+if rub <= sell:
+    print("Денег недостаточно")
+else:
+    print(rub - sell)
+
 ```
 
 ---
