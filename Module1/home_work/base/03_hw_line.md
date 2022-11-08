@@ -18,7 +18,14 @@
 ### Решение задачи
 
 ```python
-# TODO: you code here...
+all_path = 109;
+speed_moto=int(input())
+time_moto = int(input())
+current_path = speed_moto*time_moto
+checkpoint = current_path%109
+
+print(checkpoint)
+
 ```
 
 ---
