@@ -17,7 +17,8 @@
 ### Решение задачи
 
 ```python
-# TODO: you code here...
+temperature = int(input())
+print((temperature*9/5)+32)
 ```
 
 ---
