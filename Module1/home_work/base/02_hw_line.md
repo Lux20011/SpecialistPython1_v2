@@ -18,8 +18,8 @@
 
 ```python
 import math
-math.pi # Число pi из библиотеки math
-# TODO: you code here...
+cyrcle_r = float(input())
+print((math.pi*(abs(cyrcle_r)**2)))
 ```
 
 ---
