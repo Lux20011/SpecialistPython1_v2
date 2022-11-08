@@ -19,7 +19,9 @@
 ```python
 import math
 math.pi # Число pi из библиотеки math
-# TODO: you code here...
+import math
+cyrcle_r = int(input())
+print((math.pi*(cyrcle_r**2)))
 ```
 
 ---
